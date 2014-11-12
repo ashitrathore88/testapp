@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>::Emodoki::</title> 
+<link rel="shortcut icon" href="${serverPath}/resources/images/favicon.ico">
+</head>
+<body>
+<div style="width:100%;	float:left;	background:#401157 url(${serverPath}/resources/images/top-nav-bg.jpg) no-repeat;	height:75px;">
+  <header style="width:853px; margin:0 auto;">
+    <div style="margin:0 auto;">
+      <div style="float:left; padding-top:37px;"><img src="${serverPath}/resources/images/emodoki-small.png" title="emodoki" alt="emodoki" border="0" /></div>
+    </div>
+  </header>
+</div>
+<div style="width:853px; margin:0 auto;">
+  <div style="width:822px;	float:left;	font-size:16px;	-webkit-border-radius: 8px;	-moz-border-radius: 8px;	border-radius:8px;	padding:25px;
+	background:#f7f2f9 url(${serverPath}/resources/images/back-bg.png) 279px 752px no-repeat;   margin-top: 21px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; text-align:justify; font-size:16px;">You now have a new password, click on the link below to log in your emodoki accont</p>
+    <div style="padding-top:15px; width:776px; margin:auto;"></div>
+    <div style="color:#000000; font-size:16px; font-style:normal; font-family:Arial, Helvetica, sans-serif; margin-top:15px; ">
+      <div style="color:#252525; font-family:Arial, Helvetica, sans-serif;"><b>Log in:</b><br/>
+      <span style="font-family: Arial, Helvetica, sans-serif; color: #f26522"><a href="${serverPath}" style="color:#92278F;">${serverPath}</a></span><br/>
+    </div>
+       <p>username: <span style="color:#F06520;">${username}</span><br>
+passowrd: <span style="color:#F06520;">${password}</span></p>
+      <p>You can also customize your emodoki profile account by clicking the setting on your emodoki account.</p>
+<h2 style="font-size:15px; font-weight: normal;"><strong>Thank you for using emodoki.com!</strong></h2>
+<p>&nbsp;</p>
+  </div>
+    <div style="clear:both"></div>
+    <div>
+    <div style="float:left">www.emodoki.com</div>
+    <div style="text-align:left; width:400px; font-size:12px; font-family:Arial, Helvetica, sans-serif; float:right;"><img src="${serverPath}/resources/images/facebook-small-icon.png" align="left" style="margin-right:5px;" >visit and like our Facebook Fan page<br>
+    <a href="https://www.facebook.com/EmodokiShareYourMoods?ref=hi" style="color:#F26522; text-decoration:none;">https://www.facebook.com/EmodokiShareYourMoods?ref=hi</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

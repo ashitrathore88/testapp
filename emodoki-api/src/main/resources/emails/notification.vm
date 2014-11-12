@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>::Emodoki::</title> 
+<link rel="shortcut icon" href="${serverPath}/resources/images/favicon.ico">
+</head>
+<body>
+<div style="width:100%;	float:left;	background:#401157 url(${serverPath}/resources/images/top-nav-bg.jpg) no-repeat;	height:75px;">
+  <header style="width:853px; margin:0 auto;">
+    <div style="margin:0 auto;">
+      <div style="float:left; padding-top:37px;"><img src="${serverPath}/resources/images/emodoki-small.png" title="emodoki" alt="emodoki" border="0" /></div>
+    </div>
+  </header>
+</div>
+<div style="width:562px; margin:0 auto;">
+  <div style="width:562px;	float:left;	font-size:16px;	-webkit-border-radius: 8px;	-moz-border-radius: 8px;	border-radius:8px;	padding:25px;
+	background:#f7f2f9 url(${serverPath}/resources/images/back-bg.png) 279px 752px no-repeat;   margin-top:21px;">
+    <div style="width:309px; margin:0 auto;">
+    	<div style="width:45px; float:left;"><img src="${serverPath}/resources/images/emodoki-alert.png"/></div>
+    	 <div style="text-align:center; float:left; color:#111111;	font-size:30px;	font-weight:bold; 	font-style:normal;	padding-bottom: 11px;  font-family:Arial, Helvetica, sans-serif; margin-bottom:5px; font-size:24px; width:226px;">EMODOKI ALERT!
+         <span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#8560a8;"><a href="${serverPath}/profile/${username}">You have received 1 comment!</a></span>
+         </div>
+         	
+    		</div>
+    		
+   			<div style="font-family:Arial, Helvetica, sans-serif; margin:0 auto; overflow:hidden;width:314px; font-size:14px; color:#111111; text-align:center; padding-top:10px;">Find out who had commented on your emodoki status<br/>Click the link above and see<br/>
+      <span style="color:#f26522;">www.emodoki.com</span></div> 
+      
+    
+   
+    </div>
+     
+
+    </div>
+    
+    
+  </div>
+</div>
+</body>
+</html>

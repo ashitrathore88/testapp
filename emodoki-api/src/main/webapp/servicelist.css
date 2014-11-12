@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+.heading {
+	
+	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#525252;
+	font-weight:bold;
+}
+.field {
+	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#525252;
+	font-weight:bold;
+}
+.value {
+	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#525252;
+	font-weight:bold;
+}
+.porttypename {
+	font-weight: bold;
+}
+UL {
+	margin-top: 0;
+}
+LI {
+	font-weight: normal;
+}
+TABLE {
+	border-collapse:collapse;
+}
+TD {
+	border:1px solid #CFCFCF; 
+	background-color:#f9f9f9; 
+	padding:6px;
+}

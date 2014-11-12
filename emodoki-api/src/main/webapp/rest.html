@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>REST-Client</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	document.domain = 'emoapi.herokuapp.com';
+
+	$(document).ready(function() {
+		$.ajax({
+		  type: "POST",
+		  contentType:"application/xml; charset=utf-8",
+		  dataType:"xml",
+		  beforeSend: function (xhr) { xhr.setRequestHeader ("Authentication", "Basic Z3Vlc3Q6Z3Vlc3Q="); },
+		  url: "http://emoapi.herokuapp.com/rest/user/authenticate",
+		  data: "<credential><key>4153f562-37be-4143-ab6f-b61e17b862ff</key><username>sunnydyal</username><password>5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8</password></credential>",
+		  success: function (){
+			    alert('Thanks for your comment!'); 
+			  }
+		});
+
+
+	});
+</script>
+</html>

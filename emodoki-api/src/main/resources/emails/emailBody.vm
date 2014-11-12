@@ -1,0 +1,30 @@
+<html>
+<body>
+<div style="width:100%;background-color:#401157;height:50px;"><a href="http://www.emodoki.com"><img src="${serverPath}/resources/images/emodoki-small.png" alt="Emodoki" style="outline:none;border:0px;padding:5px;"></img></a></div>
+<br/>
+<p>Welcome ${firstName} ${lastName},</p>
+<p>
+Congratulations with your membership here at <strong>Emodoki</strong>. You can start sharing your mood right now. <strong>Emodoki</strong> is
+a unique social network because it is real social. The network is all about You. You are starting right now able to
+share your mood and get the attention you want by talking about all what concerns you.
+
+We offer some unique tools. A unique graph about your recent moods. You can start comparing with weather or
+your friends. With <strong>Emodoki</strong> you learn a lot about yourselve.
+</p>
+<p>
+	<img src="${serverPath}/resources//images/map.gif" alt="Graph" style="outline:none;border:0px;"></img>
+</p>
+<p>
+Ofcourse Emodoki is also available on your mobile smartphone. Just by give a tab you share your emotion.
+You can easy download your personal app with all kind of easy and handy functions to make Emodoki a
+valuable part of your live.
+
+You can login to your account at ${email} or ${username}
+</p>
+
+<br/>
+Enjoy!<br/><br/>
+
+Antoine
+</body>
+</html>

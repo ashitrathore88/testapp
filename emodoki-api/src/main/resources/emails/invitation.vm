@@ -1,0 +1,65 @@
+<html>
+<body>
+	
+	<div
+		style="width: 100%; float: left; height: 75px;">
+		
+		<header style="width:853px; margin:0 auto;">
+    <div style="margin:0 auto;">
+      <div style="float:left;"><img src="${serverPath}/resources/images/header-image.png" /></div>
+     
+    </div>
+  </header>
+	</div>
+	<div style="width: 853px;  position: relative;">
+		
+		<div
+			style="width: 822px; float: left; font-size: 16px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; padding: 25px; background: #f7f2f9 url(${serverPath}/resources/images/back-bg.png) 279px 752px no-repeat; ">
+			<h1
+				style="text-align: center; color: #111111; font-size: 30px; font-weight: bold; text-transform: uppercase; font-style: normal; padding-bottom: 11px; font-family: Arial, Helvetica, sans-serif;">CONGRATULATIONS!</h1>
+			<span
+				style="color: #111111; font-style: normal; font-family: Arial, Helvetica, sans-serif;"><b>Dear User, </b>
+				
+			<p>
+				You have received an invitation from <a href="${serverPath}/profile/${username}">${firstName} ${lastName}</a> 
+			</p>
+			<p
+				style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 16px;">Start sharing your moods now!
+				Choose your mood for the day and then share instantly. Add friends
+				to your contacts and invite others to join in, compare and share
+				your mood with other people all over the world, express what you
+				feel towards society, weather, sport events or any other occasions
+				or a particular situation, emodoki will truly show your true
+				feelings!</p>
+			<div
+				style="font-size: 14px; padding-top: 10px; font-family: Arial, Helvetica, sans-serif;">Learn
+				your very own personality by using Emodoki graph, it features your
+				mood data, analyzing your mood for a certain period of time thus
+				allowing you to learn how your mood affects your daily life and how
+				others sees you as a person.</div>
+			<div style="padding-top: 15px; width: 776px; margin: auto;">
+				<img
+					src="${serverPath}/resources/images/graph-banner.png"
+					alt="Mood Chart" border="0" />
+			</div>
+			
+			<div
+				style="color: #000000; font-size: 16px; font-style: normal; font-family: Arial, Helvetica, sans-serif; margin-top: 15px; float: left;">
+				<img
+					src="${serverPath}/resources/images/emodoki-mobile.png"
+					style="float: right" border="0" />You can also enjoy Emodoki
+				using your mobile phones or other gadget, simply download the
+				emodoki app and then you can instantly share your moods everywhere,
+				anywhere at any time of the day! Visit <span
+					style="color: #f26522; font-family: Arial, Helvetica, sans-serif;"><a
+					href="http://www.emodoki.com">www.emodoki.com</a></span> and learn more about my
+				emodoki app.
+			</div>
+			<span class="start-mood"
+				style="font-size: 24px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-style: normal;">Start
+				sharing your mood!</span>
+			<p style="color: #000000; font-family: Arial, Helvetica, sans-serif;">Enjoy!</p>
+		</div>
+	</div>
+</body>
+</html>
